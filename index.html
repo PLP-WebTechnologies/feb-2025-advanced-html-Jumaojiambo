@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+    <!-- Ordered List with Roman Numerals -->
+    <h2>My Favorite Activities</h2>
+    <ol type="I">
+        <li>Reading</li>
+        <li>Coding</li>
+        <li>Traveling</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>Beautiful Nature</h2>
+    <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Nature Scene" width="400">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Johnson</td>
+                <td>123 Maple St</td>
+                <td>555-1234</td>
+                <td>alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Smith</td>
+                <td>456 Oak Ave</td>
+                <td>555-5678</td>
+                <td>bob@example.com</td>
+            </tr>
+            <tr>
+                <td>Charlie Lee</td>
+                <td>789 Pine Rd</td>
+                <td>555-8765</td>
+                <td>charlie@example.com</td>
+            </tr>
+            <tr>
+                <td>Dana Scott</td>
+                <td>321 Birch Blvd</td>
+                <td>555-4321</td>
+                <td>dana@example.com</td>
+            </tr>
+            <tr>
+                <td>Eva Green</td>
+                <td>654 Cedar Ln</td>
+                <td>555-2468</td>
+                <td>eva@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form>
+        <!-- Name -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password" required><br><br>
+
+        <!-- Date -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="india">India</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="coding" name="interest" value="coding">
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="interest" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interest" value="music">
+        <label for="music">Music</label><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
